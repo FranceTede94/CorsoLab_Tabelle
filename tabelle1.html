@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella Semplice</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabella Semplice</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <caption>Tabella Informazioni Personali</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Età</th>
+            <th>Città</th>
+            <th>Provincia</th>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Rossi</td>
+            <td>30</td>
+            <td>Roma</td>
+            <td>RM</td>
+        </tr>
+        <tr>
+            <td>Marco</td>
+            <td>Bianchi</td>
+            <td>21</td>
+            <td>Milano</td>
+            <td>MI</td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>Verdi</td>
+            <td>25</td>
+            <td>Milano</td>
+            <td>MI</td>
+        </tr>
+        <tr>
+            <td>Luca</td>
+            <td>Neri</td>
+            <td>28</td>
+            <td>Napoli</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            <td>Elena</td>
+            <td>Galli</td>
+            <td>35</td>
+            <td>Torino</td>
+            <td>TO</td>
+        </tr>
+        <tr>
+            <td>Giulia</td>
+            <td>Russo</td>
+            <td>22</td>
+            <td>Firenze</td>
+            <td>FI</td>
+        </tr>
+    </table>
+</body>
+</html>
